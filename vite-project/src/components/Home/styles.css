@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(213, 213, 213);
+}
+
+.tudo {
+  margin-top: 10px;
+  display: flex;
+  margin-left: 45px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+
+input {
+  border: groove;
+  border-radius: 7px;
+  border-color: gray;
+  background-color: whitesmoke;
+  width: 450px;
+  height: 30px;
+}
+
+.linha {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(250, 250, 250);
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.navbar {
+  background-color: rgb(0, 194, 224);
+  margin: -10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  grid-template-columns: auto;
+  flex-direction: row;
+  height: 110px;
+  width: 100%;
+}
+
+.dataVeicle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.dataDriver {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.rota {
+  margin-left: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.datatrip{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.div_motorista {
+  margin-right: 115px;
+}
+
+input.cad {
+  color: black;
+  font-style: bold;
+  height: 40px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.veiculo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.logo {
+  height: 100px;
+  width: 200px;
+  padding-top: 10px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.inputFile {
+  height: 250px;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  margin-left: 125px;
+  opacity: 0;
+}
+
+.button {
+  margin-top: 50px;
+  padding-inline: 150px;
+  padding-block: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}

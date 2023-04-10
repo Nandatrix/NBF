@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+:root {
+	font-size: 62.5%;
+	font-family: "Poppins", sans-serif;
+
+	--primary-color: #00c2e0;
+	--secondary-color: #d7d5d5;
+
+	background-color: var(--primary-color);
+}
+
+input {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	border: 1px solid gray;
+	border-radius: 0.5rem;
+	padding: 0.2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input:focus {
+	outline-color: var(--primary-color);
+}
+
+label {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+button {
+	font-family: "Poppins", sans-serif;
+	cursor: pointer;
+}

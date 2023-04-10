@@ -1,0 +1,28 @@
+.driver-form-section {
+	display: flex;
+	gap: 1rem;
+	position: relative;
+}
+
+.driver-form-section span {
+	display: flex;
+	flex-direction: column;
+}
+
+#number,
+#age {
+	width: 4rem;
+}
+
+#phone {
+	width: 13rem;
+}
+
+#renavam,
+#address {
+	width: 153%;
+}
+
+#travel-code {
+	width: 125%;
+}
